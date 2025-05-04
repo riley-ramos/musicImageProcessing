@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Processing Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:wght@100..900&family=Press+Start+2P&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="center-container">
+    <h1>Music Image Processing Project</h1>
+    <!-- <img src="images/app_images/front_icon.png" class="center-image"> -->
+    <img id="loading-image" src="images/app_images/loading.gif" alt="Loading..." />
+    <div id="image-container" class="image-row" style="margin-top: 20px;"></div>
+    <div id="label-list" style="color: black; margin-top: 20px;"></div>
+    <div id="predictionImages" style="display: flex; flex-wrap: wrap;"></div>
+    <div id="predictionMessage" style="font-weight: bold; margin-top: 1em;"></div>
+    <div class="button-row center">
+      <a href="index.html" id="select-btn" class="custom-button">Go Back</a>
+      <button id="generate-btn" class="custom-button">Generate Images</button>
+      <button id="upload-btn" class="custom-button">Upload Image</button>
+    </div>    
+    <script src="renderer.js"></script>
+  </div>
+</body>
+</html>

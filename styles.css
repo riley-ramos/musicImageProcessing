@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-family: 'DM Serif Text', sans-serif;
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    color: #121212;
+    font-family: 'DM Serif Text', serif;
+  }
+  .center {
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically if needed */
+    gap: 16px;                /* space between buttons */
+    margin-top: 20px;
+  }
+  
+  .center-container {
+    display: flex;
+    flex-direction: column;     /* stack vertically */
+    justify-content: center;    /* center vertically */
+    align-items: center;        /* center horizontally */
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .center-image {
+    width: 400px; /* or whatever fits your design */
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  .custom-button {
+    padding: 0.75rem 1.5rem;       /* Size of the button */
+    border: 2px solid #C8B8DB;     /* Border color and thickness */
+    border-radius: 30px;           /* Makes it rounded */
+    background-color: white;     /* Background color */
+    color: black;                /* Text color */
+    font-size: 1rem;
+    text-decoration: none;  /* Removes underline */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'DM Serif Text', sans-serif;
+  }
+  
+  .custom-button:hover {
+    background-color: #C8B8DB;     /* On hover: background changes */
+    color: white;                /* On hover: text changes */
+    border-color: #C8B8DB;
+  }
+  
+  #loading-image {
+    display: none; 
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+  }
+
+  #image-container img {
+    width: 50px;
+    height: auto;        /* preserve aspect ratio */
+    object-fit: contain; /* adds spacing if image is smaller */
+    margin: 10px;
+  }  
+  #image-container.image-row {
+    display: flex;
+    flex-wrap: wrap;              /* wrap if too wide */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px;
+    max-width: 100vw;
+    overflow-x: auto;
+  }
+
+  #predictionSection {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #predictionImages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #predictionImages img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #predictionMessage {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  
+  
