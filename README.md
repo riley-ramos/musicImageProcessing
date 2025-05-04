@@ -4,8 +4,8 @@ Author: Riley Ramos
 Date: May 2025
 
 ## Documents
-1. [Final Report]([url](https://docs.google.com/document/d/1Qk4SJVIcGVRtwtmrp6uhJc6uodE7gs4fF35Le6rwUwI/edit?usp=sharing))
-2. [Video Demo]([url](https://drive.google.com/file/d/1z14jrtz3gpD1cNTdArSg3OoPsl43hwZx/view?usp=sharing))
+1. [Final Report](https://docs.google.com/document/d/1Qk4SJVIcGVRtwtmrp6uhJc6uodE7gs4fF35Le6rwUwI/edit?usp=sharing)
+2. [Video Demo](https://drive.google.com/file/d/1z14jrtz3gpD1cNTdArSg3OoPsl43hwZx/view?usp=sharing)
    
 ## How to Compile
 1. Clone the repository.
