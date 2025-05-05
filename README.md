@@ -6,6 +6,7 @@ Date: May 2025
 ## Documents
 1. [Final Report](https://docs.google.com/document/d/1Qk4SJVIcGVRtwtmrp6uhJc6uodE7gs4fF35Le6rwUwI/edit?usp=sharing)
 2. [Video Demo](https://drive.google.com/file/d/1z14jrtz3gpD1cNTdArSg3OoPsl43hwZx/view?usp=sharing)
+3. [Slides Presentation](https://www.canva.com/design/DAGmiHG45ig/bLfY341xQ41Q7OR2fjgVeA/edit?utm_content=DAGmiHG45ig&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
    
 ## How to Compile
 1. Clone the repository.
